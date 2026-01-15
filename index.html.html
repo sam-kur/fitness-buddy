@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>satyam fitness budy</title>
+</head>
+<style>
+    body {
+        padding: 0px;
+        margin: 0px;
+        background-image: url("body.jpg");
+        height: 50px;
+
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+
+    }
+
+    .left {
+        position: absolute;
+        left: 20px;
+        top: 14px;
+        display: inline-block;
+        border: solid 4px pink;
+        border: none;
+
+    }
+
+    .mid {
+
+        display: block;
+        width: 45%;
+        margin: 20px auto;
+        border: solid 6px rgb(30, 128, 0);
+        border: none;
+    }
+
+    .right {
+
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        display: inline-block;
+        border: solid 4px green;
+        border: none;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: azure;
+        text-decoration: none;
+        padding: 14px 8px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .left img {
+        width: 99px;
+    }
+
+    .left div {
+        text-align: center;
+        color: beige;
+        font-family: inherit;
+        font-weight: bold;
+    }
+
+    .btn {
+        margin: 0px 10px;
+        background-color: black;
+        color: white;
+        padding: 6px 16px;
+        border: 4px solid yellow;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: darkorange;
+    }
+
+    .container {
+        color: rgb(255, 255, 255);
+        border: 2px solid whitesmoke;
+        margin: 330px 20px;
+        padding: 76px;
+        width: 67%;
+        border-radius: 60px;
+        border: none;
+    }
+    .form.group input{
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 6px;
+        border: 3px solid grey;
+        margin: 11px auto;
+        border-radius: 5px;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+         font-weight: bold;
+         border: none;
+
+    }
+    .container h1{
+        text-align: center;
+        border: none;
+    }
+    .container button{
+        display: block;
+        width: 50%;
+        margin: 28px auto;
+        border: none;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="logo.png" alt="">
+            <div>satyam fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Programs</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Sign Up</button>
+            <button class="btn">Sign In</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1> Health is Wealth </h1>
+        <form action="noaction.php">
+            <div class="form group">
+                <input type="text" placeholder="Enter your name ">
+             </div>
+
+              <div class="form group">
+                <input type="text" placeholder="Enter your age ">
+             </div> 
+             
+             <div class="form group">
+                <input type="text" placeholder="Enter your gender">
+             </div> 
+             
+             <div class="form group">
+                <input type="text" placeholder="Enter your locality">
+             </div>
+              <div class="form group">
+                <input type="text" placeholder="Enter your mobile.no">
+             </div>
+             <button class="btn"> submit</button>
+           
+
+
+    </form>
+    </div>
+</body>
+
+</html>
